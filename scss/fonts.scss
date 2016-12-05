@@ -1,6 +1,5 @@
 @import "bourbon";
 
-@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
 @include font-face("ProximaNovaBlack", "../fonts/Proxima Nova Black/Proxima Nova Black", $file-formats: eot woff ttf);
 @include font-face("ProximaNovaExtrabold", "../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold", $file-formats: eot woff ttf);
 @include font-face("ProximaNovaLight", "../fonts/Proxima Nova Light/Proxima Nova Light", $file-formats: eot woff ttf);
