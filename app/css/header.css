@@ -1,21 +1,142 @@
 body {
   font-size: 16px;
-  min-width: 275px;
+  min-width: 320px;
   position: relative;
+  color: #020202;
   line-height: 1.6;
   font-family: "RobotoRegular", sans-serif;
   overflow-x: hidden;
   background-color: #fff; }
 
-body a {
+a, button, input, textarea {
   text-decoration: none;
+  outline: 0;
+  border: 0;
   -webkit-transition: color 0.4s ease, background-color 0.4s ease, border-color 0.4s ease;
   transition: color 0.4s ease, background-color 0.4s ease, border-color 0.4s ease; }
+  a:focus, button:focus, input:focus, textarea:focus {
+    outline: 0;
+    border: 0; }
+
+button:hover {
+  cursor: pointer; }
 
 .hidden {
   display: none; }
 
-.wrapper {
-  width: 960px;
+header {
+  background-image: url("../img/head-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 978px; }
+
+.logo {
+  display: block;
+  padding-left: 23px;
+  margin-top: 40px; }
+
+.top-menu {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 172px; }
+  .top-menu li {
+    float: left; }
+  .top-menu a {
+    color: #fff;
+    font-size: 16.89px;
+    margin-top: 42px;
+    display: block;
+    padding-right: 21px;
+    font-family: ProximaNovaLight;
+    letter-spacing: 0.9px; }
+
+.telephone {
+  margin-top: 41px;
+  padding-left: 22px;
+  display: inline-block;
+  color: #fff;
+  max-width: 230px;
+  font-size: 19px;
+  font-family: ProximaNovaLight;
+  letter-spacing: 2px; }
+  .telephone span {
+    padding-left: 10px; }
+
+.call-back {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-size: 19px;
+  background-color: #383b44;
+  color: #ebebec;
+  font-family: ProximaNovaLight;
+  margin-left: 34px;
+  max-width: 222px; }
+  .call-back:hover {
+    text-decoration: none; }
+
+.head-centr h1 {
+  font-size: 47.5px;
+  font-family: ProximaNovaBlack;
+  margin-top: 166px;
+  margin-left: 25px;
+  letter-spacing: 1.8px;
+  line-height: 62px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #e1cba9; }
+  .head-centr h1 span {
+    color: #fff; }
+
+.head-centr p {
+  font-size: 21.11px;
+  font-family: ProximaNovaLight;
+  padding-top: 13px;
+  padding-left: 28px;
+  letter-spacing: 0.4px;
+  color: #fff; }
+
+.baner-popup {
+  max-width: 1165px;
+  position: relative;
   margin: 0 auto;
-  overflow: hidden; }
+  margin-top: 195px;
+  background-color: #fff;
+  min-height: 295px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  font-family: ProximaNovaSemibold;
+  color: #020202;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); }
+  .baner-popup p {
+    font-size: 21.11px;
+    padding-top: 60px;
+    letter-spacing: 0.4px;
+    padding-bottom: 20px; }
+  .baner-popup b {
+    font-size: 34.83px;
+    letter-spacing: 1.4px; }
+    .baner-popup b span {
+      padding-left: 14px; }
+  .baner-popup a {
+    display: block;
+    font-family: ProximaNovaRegular;
+    font-size: 14.78px;
+    margin: 21px auto;
+    max-width: 232px;
+    padding: 8px 0px;
+    color: #fff;
+    background-color: #c2b6a6; }
+    .baner-popup a:hover {
+      text-decoration: none; }
+
+.pic-perfect {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  opacity: .4;
+  margin-left: -960px; }

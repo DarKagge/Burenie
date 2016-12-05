@@ -8,7 +8,10 @@
         font-weight: 700;
     }
 }
-
+.inner {
+    max-width: 1219px;
+    margin: 0 auto;
+}
 .allert, .allert_tell {
     position: absolute;
     z-index: 20;

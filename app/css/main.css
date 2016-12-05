@@ -22,42 +22,130 @@ body input:required:valid,
 body textarea:required:valid {
   color: #666; }
 
-/*==========  Desktop First Method  ==========*/
+footer {
+  background-color: #000000;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 11px;
+  padding-bottom: 2px; }
+  footer ul {
+    margin-top: 19px;
+    float: left;
+    padding-left: 0;
+    padding-right: 0; }
+    footer ul li {
+      float: left;
+      margin-right: 20px; }
+      footer ul li a {
+        text-decoration: none;
+        color: #616161;
+        font-size: 16px; }
+      footer ul li a:hover {
+        text-decoration: none;
+        color: #fff; }
+  footer .gs {
+    float: right;
+    margin: 9px;
+    margin-right: 15px;
+    display: block; }
+  footer .gs:visited, footer .gs:active {
+    text-decoration: none; }
+
+.zagolovki {
+  text-align: center;
+  font-size: 37.67px;
+  font-family: ProximaNovaExtrabold;
+  text-transform: uppercase;
+  margin-top: 66px;
+  letter-spacing: -0.9px; }
+
+.zag-line {
+  max-width: 102px;
+  margin: 10px auto;
+  height: 6px;
+  background-color: #d3c8b9; }
+
+.service {
+  background-image: url("../img/bg-section1.jpg");
+  min-height: 1153px; }
+
+.item {
+  max-width: 397px;
+  width: 100%;
+  position: relative;
+  min-height: 271px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  cursor: pointer;
+  color: #fff;
+  font-size: 22.17px;
+  font-family: ProximaNovaBold;
+  padding-top: 127px;
+  margin-top: 145px;
+  z-index: 55;
+  -webkit-transition: 1s all;
+  transition: 1s all; }
+  .item:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 47, 56, 0.6);
+    z-index: -1; }
+  .item:hover:after {
+    background-color: transparent !important;
+    -webkit-transition: 1s all;
+    transition: 1s all; }
+  .item:hover {
+    margin-top: 110px;
+    height: 310px; }
+
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .wrapper {
-    width: auto; } }
+    width: auto; }
+  .pad {
+    padding: 50px 5px !important; }
+  footer {
+    text-align: center; }
+    footer .wrapper {
+      width: auto; }
+    footer ul {
+      float: none;
+      display: inline-block;
+      text-align: center; }
+      footer ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+        float: none; }
+    footer .gs {
+      float: none;
+      display: block; } }
 
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .pad {
-    padding: 20px 5px !important; }
-  /*Disable Animation on Mobile Devices*/
-  .animated {
-    /*CSS transitions*/
-    -webkit-transition-property: none !important;
-    transition-property: none !important;
-    /*CSS transforms*/
-    -ms-transform: none !important;
-    -webkit-transform: none !important;
-    transform: none !important;
-    /*CSS animations*/
-    -webkit-animation: none !important;
-    animation: none !important; } }
+    padding: 20px 5px !important; } }
 
-/* Custom, iPhone Retina */
-/*==========  Mobile First Method  ==========*/
-/* Custom, iPhone Retina */
-/* Extra Small Devices, Phones */
-/* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-/* Large Devices, Wide Screens */
 /* ============================ form css =========================== */
-#modal_callback_ok h3 {
+#modal_callback_ok h3, #modal_callback_ok h4 {
   font: 30px RobotoRegular,Arial,sans-serif;
   text-align: center; }
+
+#modal_callback_ok h4 {
+  font-weight: 700; }
+
+.inner {
+  max-width: 1219px;
+  margin: 0 auto; }
 
 .allert, .allert_tell {
   position: absolute;
