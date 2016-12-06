@@ -352,7 +352,11 @@ body .lSAction > .lSPrev {
   background-size: 49%; }
 
 .hard-left {
-  margin-top: 117px; }
+  margin-top: 117px;
+  background-image: url("../img/hard2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 10%; }
 
 .box-hard {
   height: 355px;
@@ -402,9 +406,42 @@ body .lSAction > .lSPrev {
     letter-spacing: 0.4px;
     line-height: 29px; }
 
+.number_left {
+  float: right;
+  margin-top: 158px; }
+
 .in-text-hard_left {
   text-align: right;
-  margin-left: 0; }
+  margin-left: 0;
+  margin-right: 102px; }
+
+.hard-right_marg {
+  margin-top: 190px; }
+
+.shield {
+  min-height: 450px;
+  background-image: url("../img/bg-for-shield.jpg");
+  background-repeat: no-repeat;
+  margin-top: 154px; }
+
+.garant {
+  max-width: 767px;
+  width: 100%;
+  background-color: #fff;
+  min-height: 384px;
+  margin: 80px auto;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  background-image: url("../img/shield.png");
+  background-repeat: no-repeat;
+  background-position: center 60px;
+  text-align: center;
+  padding-top: 239px;
+  letter-spacing: 1.9px; }
+  .garant h2 {
+    font-size: 22.17px;
+    text-transform: uppercase;
+    font-family: ProximaNovaBold; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
