@@ -456,7 +456,7 @@ body .lSAction > .lSPrev {
 
 .for-us-item {
   vertical-align: middle;
-  padding-left: 23px; }
+  padding-left: 32px; }
   .for-us-item p {
     font-size: 19px;
     color: #020202;
@@ -471,6 +471,97 @@ body .lSAction > .lSPrev {
     vertical-align: middle;
     display: inline-block;
     padding-right: 25px; }
+
+.zagolovki-contactov {
+  margin-top: 81px; }
+
+.people {
+  margin-top: 70px; }
+
+.cont {
+  display: inline-block;
+  width: 49%; }
+  .cont p {
+    font-family: ProximaNovaRegular;
+    font-size: 23.22px;
+    display: inline-block; }
+
+.contact-item {
+  max-width: 315px;
+  width: 100%;
+  -webkit-border-radius: 152px;
+  border-radius: 152px;
+  min-height: 315px;
+  display: inline-block;
+  border: 1px solid #e0d9d0;
+  vertical-align: middle;
+  text-align: center; }
+
+.contact-item_first {
+  margin-top: 20px; }
+
+.img-circle {
+  max-width: 230px;
+  width: 100%;
+  min-height: 230px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  margin: 25px auto;
+  background-position: -450px top; }
+
+.img_bot {
+  margin-top: 75px; }
+
+.contact-telephone {
+  margin-top: 263px; }
+
+.telephone-footer {
+  position: relative;
+  max-width: 769px;
+  width: 100%;
+  height: 388px;
+  background-color: #c3b5a1;
+  margin-right: 28px; }
+
+.footer-popup {
+  background-color: transparent;
+  margin-top: 0;
+  min-height: auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  text-align: left; }
+  .footer-popup p {
+    text-align: center;
+    padding-top: 104px;
+    letter-spacing: 1.2px;
+    padding-left: 47px;
+    padding-bottom: 9px; }
+  .footer-popup b {
+    padding-left: 185px; }
+  .footer-popup a {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 33px 0 0 186px; }
+
+.left-tel-bar {
+  max-width: 471px;
+  position: absolute;
+  left: -402px;
+  top: 41px;
+  width: 100%;
+  text-align: center;
+  min-height: 307px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  padding-top: 50px;
+  font-family: ProximaNovaLight; }
+  .left-tel-bar p {
+    font-size: 23.22px;
+    padding-bottom: 15px;
+    letter-spacing: 1.4px; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
