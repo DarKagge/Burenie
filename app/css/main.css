@@ -446,6 +446,32 @@ body .lSAction > .lSPrev {
 .zagolovki-us {
   margin-top: 48px; }
 
+.for-us {
+  background-image: url("../img/numeral.png");
+  background-position: center 367px;
+  background-repeat: no-repeat; }
+
+.for-item {
+  margin-top: 62px; }
+
+.for-us-item {
+  vertical-align: middle;
+  padding-left: 23px; }
+  .for-us-item p {
+    font-size: 19px;
+    color: #020202;
+    font-family: OpenSans-Light;
+    vertical-align: middle;
+    display: inline-block; }
+  .for-us-item span {
+    color: #d3c8b9;
+    font-size: 128.78px;
+    font-family: ProximaNovaExtrabold;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 25px; }
+
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
