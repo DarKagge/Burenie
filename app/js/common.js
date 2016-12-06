@@ -112,4 +112,18 @@ $(function() {
 		}
 		return false;
 	})
+
+
+
+	var autoplaySlider = $('#autoplay').lightSlider({
+		auto:true,
+		loop:true,
+		item:1,
+		pauseOnHover: true,
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+			}
+		});
+		$('#total').text(autoplaySlider.getTotalSlideCount());
+
 });

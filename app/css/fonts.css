@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "RobotoRegular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
-
-@font-face {
   font-family: "ProximaNovaBlack";
   font-style: normal;
   font-weight: normal;
@@ -45,3 +39,9 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/Proxima Nova Bold/Proxima Nova Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Bold/Proxima Nova Bold.woff") format("woff"), url("../fonts/Proxima Nova Bold/Proxima Nova Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Light/OpenSans-Light.ttf") format("truetype"); }
