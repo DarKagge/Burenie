@@ -443,6 +443,9 @@ body .lSAction > .lSPrev {
     text-transform: uppercase;
     font-family: ProximaNovaBold; }
 
+.zagolovki-us {
+  margin-top: 48px; }
+
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
