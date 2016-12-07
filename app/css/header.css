@@ -1,4 +1,5 @@
 @import url(../libs/lightslider/dist/css/lightslider.min.css);
+@import url(../libs/magnific-popup/dist/magnific-popup.css);
 body {
   font-size: 16px;
   min-width: 320px;
@@ -75,7 +76,8 @@ header {
   margin-left: 34px;
   max-width: 222px; }
   .call-back:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fff; }
 
 .head-centr h1 {
   font-size: 47.5px;
@@ -289,3 +291,32 @@ header {
   right: 0;
   opacity: .4;
   margin-left: -960px; }
+
+.popup {
+  position: relative;
+  max-width: 500px;
+  min-height: 350px;
+  background-color: #fff;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 35px; }
+  .popup form input {
+    width: 80%;
+    min-height: 40px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #8a8a8a;
+    display: inline-block;
+    padding-left: 25px;
+    margin: 10px auto; }
+  .popup form button {
+    display: inline-block;
+    width: 80%;
+    background-color: #c2b6a6;
+    padding: 10px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    margin-top: 25px;
+    color: #fff; }
