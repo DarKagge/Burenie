@@ -831,6 +831,17 @@ footer {
   .for-us-item span {
     font-size: 26vw; } }
 
+@media only screen and (max-width: 488px) {
+  body .lSAction > .lSNext {
+    top: 170px; }
+  body .lSAction > .lSPrev {
+    display: block;
+    top: 170px;
+    left: 59px;
+    -webkit-transform: rotate(179.7deg);
+    -ms-transform: rotate(179.7deg);
+    transform: rotate(179.7deg); } }
+
 @media only screen and (max-width: 479px) {
   .head-centr h1 {
     font-size: 4.7vw; } }
