@@ -370,7 +370,7 @@ body .lSAction > .lSPrev {
     content: '';
     left: -39px;
     bottom: -39px;
-    width: 573px;
+    width: 117%;
     height: 360px;
     background-image: url("../img/bg-hard-box.png");
     z-index: -1; }
@@ -622,6 +622,17 @@ footer {
     width: 33%;
     margin-top: 100px; } }
 
+@media only screen and (max-width: 1195px) {
+  .left-slide {
+    width: 60%;
+    max-width: inherit; }
+  .right-slide {
+    background-size: cover;
+    width: 40%;
+    max-width: inherit; }
+  .box-hard-right {
+    margin-right: 55px; } }
+
 @media only screen and (max-width: 1141px) {
   .top-menu {
     margin-left: 50px; }
@@ -688,6 +699,18 @@ footer {
     padding-top: 10px; }
   .vid-text {
     padding-top: 20px; } }
+
+@media only screen and (max-width: 655px) {
+  .left-slide h4 {
+    font-size: 3.5vw; }
+  .alg-text p {
+    font-size: 6.5vw; }
+  .alg-text tt {
+    font-size: 6vw; }
+  .alg-text {
+    padding-left: 10%; }
+  .alg-text:after {
+    left: 5%; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
