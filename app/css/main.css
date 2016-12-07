@@ -766,7 +766,9 @@ footer {
   .question:after {
     left: 25%; }
   .left-tel-bar {
-    left: 16%; } }
+    left: 16%; }
+  .telephone {
+    font-size: 3.8vw; } }
 
 @media only screen and (max-width: 655px) {
   .left-slide h4 {
@@ -807,7 +809,9 @@ footer {
 
 @media only screen and (max-width: 540px) {
   .head-centr h1 {
-    font-size: 4.8vw; } }
+    font-size: 4.8vw; }
+  .call-back {
+    font-size: 3.3vw; } }
 
 @media only screen and (max-width: 532px) {
   .left-tel-bar p {
@@ -871,7 +875,9 @@ footer {
 
 @media only screen and (max-width: 433px) {
   .head-centr h1 {
-    font-size: 4.6vw; } }
+    font-size: 4.6vw; }
+  .telephone {
+    font-size: 4.8vw; } }
 
 @media only screen and (max-width: 400px) {
   .question:after {
@@ -891,7 +897,9 @@ footer {
   .head-centr h1 {
     font-size: 4.4vw; }
   .vid-service li {
-    font-size: 4vw; } }
+    font-size: 4vw; }
+  .call-back {
+    font-size: 5.3vw; } }
 
 @media only screen and (max-width: 346px) {
   .question:after {
