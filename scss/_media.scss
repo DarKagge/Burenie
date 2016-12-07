@@ -255,10 +255,43 @@
 	.question:after{
 		left: 20%;
 	}
+	.left-tel-bar{
+		left: 10%;
+		width: 80%;
+	}
+
 }
 @media only screen and (max-width : 540px){
 	.head-centr h1{
 		font-size: 4.8vw;
+	}
+}
+@media only screen and (max-width : 532px){
+	.left-tel-bar p{
+		padding-left: 100px;
+	}
+	.tphone:after{
+		left: 60px;
+	}
+	.email:after{
+		left: 60px;
+	}
+	.time-data:after{
+		left: 60px;
+	}
+}
+@media only screen and (max-width : 492px){
+	.left-tel-bar p{
+		padding-left: 50px;
+	}
+	.tphone:after{
+		left: 20px;
+	}
+	.email:after{
+		left: 20px;
+	}
+	.time-data:after{
+		left: 20px;
 	}
 }
 @media only screen and (max-width : 479px){
@@ -266,9 +299,33 @@
 		font-size: 4.7vw;
 	}
 }
+@media only screen and (max-width : 455px){
+	.question:after{
+		left: 9%;
+	}
+}
 @media only screen and (max-width : 450px){
 	.item{
 		font-size: 4.7vw;
+	}
+	.left-tel-bar p{
+		padding-left: 0;
+		padding-bottom: 25px;
+	}
+	.left-tel-bar{
+		text-align: center;
+	}
+	.tphone:after{
+		left: 45%;
+		top: 30px;
+	}
+	.email:after{
+		left: 45%;
+		top: 30px;
+	}
+	.time-data:after{
+		left: 45%;
+		top: 30px;
 	}
 }
 @media only screen and (max-width : 433px){

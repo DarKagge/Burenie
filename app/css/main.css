@@ -263,7 +263,8 @@ body .lSAction > .lSPrev {
     content: '';
     top: -200px;
     left: 36%;
-    width: 362px;
+    max-width: 362px;
+    width: 100%;
     height: 462px;
     background-image: url("../img/faq.png");
     z-index: -1; }
@@ -791,19 +792,60 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .question:after {
-    left: 20%; } }
+    left: 20%; }
+  .left-tel-bar {
+    left: 10%;
+    width: 80%; } }
 
 @media only screen and (max-width: 540px) {
   .head-centr h1 {
     font-size: 4.8vw; } }
 
+@media only screen and (max-width: 532px) {
+  .left-tel-bar p {
+    padding-left: 100px; }
+  .tphone:after {
+    left: 60px; }
+  .email:after {
+    left: 60px; }
+  .time-data:after {
+    left: 60px; } }
+
+@media only screen and (max-width: 492px) {
+  .left-tel-bar p {
+    padding-left: 50px; }
+  .tphone:after {
+    left: 20px; }
+  .email:after {
+    left: 20px; }
+  .time-data:after {
+    left: 20px; } }
+
 @media only screen and (max-width: 479px) {
   .head-centr h1 {
     font-size: 4.7vw; } }
 
+@media only screen and (max-width: 455px) {
+  .question:after {
+    left: 9%; } }
+
 @media only screen and (max-width: 450px) {
   .item {
-    font-size: 4.7vw; } }
+    font-size: 4.7vw; }
+  .left-tel-bar p {
+    padding-left: 0;
+    padding-bottom: 25px; }
+  .left-tel-bar {
+    text-align: center; }
+  .tphone:after {
+    left: 45%;
+    top: 30px; }
+  .email:after {
+    left: 45%;
+    top: 30px; }
+  .time-data:after {
+    left: 45%;
+    top: 30px; } }
 
 @media only screen and (max-width: 433px) {
   .head-centr h1 {
