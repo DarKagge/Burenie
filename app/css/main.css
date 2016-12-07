@@ -795,7 +795,14 @@ footer {
     left: 20%; }
   .left-tel-bar {
     left: 10%;
+    width: 80%; }
+  .cont {
     width: 80%; } }
+
+@media only screen and (max-width: 616px) {
+  .for-us-item span {
+    display: block;
+    padding-right: 0; } }
 
 @media only screen and (max-width: 540px) {
   .head-centr h1 {
@@ -851,6 +858,12 @@ footer {
   .head-centr h1 {
     font-size: 4.6vw; } }
 
+@media only screen and (max-width: 400px) {
+  .question:after {
+    max-width: 300px;
+    background-size: 100%;
+    left: 12%; } }
+
 @media only screen and (max-width: 394px) {
   .head-centr h1 {
     font-size: 4.5vw; } }
@@ -858,6 +871,14 @@ footer {
 @media only screen and (max-width: 362px) {
   .head-centr h1 {
     font-size: 4.4vw; } }
+
+@media only screen and (max-width: 346px) {
+  .question:after {
+    left: 9%; } }
+
+@media only screen and (max-width: 341px) {
+  .question:after {
+    left: 5%; } }
 
 @media only screen and (max-width: 333px) {
   .head-centr h1 {
