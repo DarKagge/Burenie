@@ -89,6 +89,12 @@
 
 
 @media only screen and (max-width : 991px){
+	.head-centr p{
+		padding-left: 0;
+	}
+	.head-centr{
+		text-align: center;
+	}
 	.left-tel-bar{
 		top: 250px;
 	}
@@ -139,6 +145,8 @@
 	}
 	.head-centr h1{
 		margin-top: 70px;
+		margin-left: 0;
+		font-size: 5vw;
 	}
 	.baner-popup{
 		margin-top: 60px;
@@ -177,13 +185,39 @@
 	}
 	.cont{
 		display: block;
-		width: 35%;
+		width: 50%;
 		margin: 0 auto;
 		text-align: center;
 		margin-bottom: 30px;
 	}
 	.footer-popup p{
 		padding-top: 50px;
+		padding-left: 0;
+	}
+	.footer-popup{
+		text-align: center;
+	}
+	.footer-popup b{
+		padding-left: 0;
+	}
+	.footer-popup a{
+		margin: 20px auto;
+	}
+}
+@media only screen and (max-width : 970px){
+	.question-popup img{
+		display: none;
+	}
+	.baner-popup_p p{
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width : 700px){
+	.question:after{
+		left: 25%;
+	}
+	.left-tel-bar{
+		left: 16%;
 	}
 }
 @media only screen and (max-width : 655px){
@@ -201,5 +235,64 @@
 	}
 	.alg-text:after{
 		left: 5%;
+	}
+}
+@media only screen and (max-width : 650px){
+	.left-tel-bar{
+		left: 13%;
+	}
+}
+@media only screen and (max-width : 616px){
+	.head-centr h1{
+		font-size: 4.9vw;
+	}
+	.box-hard:after{
+		left: -7px;
+		width: 103%;
+	}
+}
+@media only screen and (max-width : 600px){
+	.question:after{
+		left: 20%;
+	}
+}
+@media only screen and (max-width : 540px){
+	.head-centr h1{
+		font-size: 4.8vw;
+	}
+}
+@media only screen and (max-width : 479px){
+	.head-centr h1{
+		font-size: 4.7vw;
+	}
+}
+@media only screen and (max-width : 450px){
+	.item{
+		font-size: 4.7vw;
+	}
+}
+@media only screen and (max-width : 433px){
+	.head-centr h1{
+		font-size: 4.6vw;
+	}
+}
+@media only screen and (max-width : 394px){
+	.head-centr h1{
+		font-size: 4.5vw;
+	}
+}
+@media only screen and (max-width : 362px){
+	.head-centr h1{
+		font-size: 4.4vw;
+	}
+}
+@media only screen and (max-width : 333px){
+	.head-centr h1{
+		font-size: 4.3vw;
+	}
+}
+@media only screen and (max-width : 325px){
+	.baner-popup b{
+		font-size: 10vw;
 	}
 }
