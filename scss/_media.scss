@@ -20,6 +20,17 @@
 		width: 33%;
 		margin-top: 100px;
 	}
+	.contact-telephone{
+		margin-bottom: 250px;
+	}
+	.left-tel-bar{
+		left: 20%;
+		top: 285px;
+	}
+	.telephone-footer{
+		float: none !important;
+		margin: 0 auto;
+	}
 }
 @media only screen and (max-width : 1195px){
 	.left-slide{
@@ -41,6 +52,8 @@
 		text-align: center;
 		padding-left: 0;
 	}
+
+
 }
 @media only screen and (max-width : 1141px) {
 	.top-menu{
@@ -76,6 +89,9 @@
 
 
 @media only screen and (max-width : 991px){
+	.left-tel-bar{
+		top: 250px;
+	}
 	.logo{
 		text-align: center;
 		padding-left: 0;
@@ -155,6 +171,19 @@
 	}
 	.number_left{
 		float: none;
+	}
+	.telephone-footer{
+		height: auto;
+	}
+	.cont{
+		display: block;
+		width: 35%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.footer-popup p{
+		padding-top: 50px;
 	}
 }
 @media only screen and (max-width : 655px){
