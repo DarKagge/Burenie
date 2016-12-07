@@ -631,7 +631,12 @@ footer {
     width: 40%;
     max-width: inherit; }
   .box-hard-right {
-    margin-right: 55px; } }
+    margin-right: 55px; }
+  .hard-left {
+    margin-top: 50px; }
+  .for-us-item {
+    text-align: center;
+    padding-left: 0; } }
 
 @media only screen and (max-width: 1141px) {
   .top-menu {
@@ -702,7 +707,7 @@ footer {
   .hard-right {
     background-image: none; }
   .box-hard {
-    margin: 0 auto; }
+    margin: 20px auto; }
   .in-text-hard {
     text-align: center;
     margin-left: 0; }
