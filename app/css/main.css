@@ -807,6 +807,11 @@ footer {
     display: block;
     padding-right: 0; } }
 
+@media only screen and (max-width: 545px) {
+  .head-centr p {
+    padding-top: 0;
+    font-size: 5.8vw; } }
+
 @media only screen and (max-width: 540px) {
   .head-centr h1 {
     font-size: 4.8vw; }
