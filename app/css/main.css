@@ -698,7 +698,20 @@ footer {
     padding-bottom: 90px;
     padding-top: 10px; }
   .vid-text {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .hard-right {
+    background-image: none; }
+  .box-hard {
+    margin: 0 auto; }
+  .in-text-hard {
+    text-align: center;
+    margin-left: 0; }
+  .number {
+    margin: 46px auto; }
+  .in-text-hard_left {
+    margin-right: 0; }
+  .number_left {
+    float: none; } }
 
 @media only screen and (max-width: 655px) {
   .left-slide h4 {
