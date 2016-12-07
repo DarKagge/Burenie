@@ -247,7 +247,7 @@
 		font-size: 4.9vw;
 	}
 	.box-hard:after{
-		left: -7px;
+		left: -6px;
 		width: 103%;
 	}
 }
@@ -260,7 +260,7 @@
 		width: 80%;
 	}
 	.cont{
-		width: 80%;
+		width: 95%;
 	}
 
 }
@@ -302,6 +302,9 @@
 	.time-data:after{
 		left: 20px;
 	}
+	.for-us-item span{
+		font-size:26vw;
+	}
 }
 @media only screen and (max-width : 479px){
 	.head-centr h1{
@@ -320,6 +323,7 @@
 	.left-tel-bar p{
 		padding-left: 0;
 		padding-bottom: 25px;
+		font-size: 6vw;
 	}
 	.left-tel-bar{
 		text-align: center;
@@ -352,11 +356,19 @@
 @media only screen and (max-width : 394px){
 	.head-centr h1{
 		font-size: 4.5vw;
+		line-height: 30px;
+	}
+	.bot-slide{
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 }
 @media only screen and (max-width : 362px){
 	.head-centr h1{
 		font-size: 4.4vw;
+	}
+	.vid-service li{
+		font-size: 4vw;
 	}
 }
 @media only screen and (max-width : 346px){
