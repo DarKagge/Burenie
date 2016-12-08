@@ -146,9 +146,10 @@ footer {
     padding-bottom: 12px; }
 
 .technology {
-  min-height: 1000px;
+  min-height: 999px;
   background-repeat: no-repeat;
-  background-image: url("../img/bg-section2.jpg"); }
+  background-image: url(../img/bg-section2.jpg);
+  background-position: center; }
 
 .zagolovki-teh {
   margin-top: 23px;
