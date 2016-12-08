@@ -357,6 +357,10 @@ body .lSAction>.lSPrev{
     box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
 }
 
+.question-mid input:checked + label:hover:after{
+    background-image: url("../img/bot-arrow1.png");
+}
+
 .question-mid article p{
     color: #000;
     line-height: 23px;
