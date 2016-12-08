@@ -89,6 +89,12 @@
 
 
 @media only screen and (max-width : 991px){
+  .hard-left{
+    display: none;
+  }
+  .hard-right_hidden{
+    display: block;
+  }
 	.head-centr p{
 		padding-left: 0;
 	}
