@@ -90,7 +90,7 @@ $(function() {
 						success:
 						$.ajax({
 							type: 'POST',
-							url: 'https://app.getresponse.com/add_subscriber.html',
+							url: 'ElectroDeggi33759@yandex.ru',
 							data: msg,
 							statusCode: {0:function() {
 								$( "#modal_callback_ok h4" ).remove();

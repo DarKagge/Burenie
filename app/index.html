@@ -513,9 +513,12 @@
 
 	<div class="popup mfp-hide" id="popup">
 		<form action="">
-			<input type="text" placeholder="Имя" required>
-			<input type="text" placeholder="Телефон" required>
-			<input type="text" placeholder="Email" required>
+            <input type="hidden" name="project_name" value="<?=$projectName[0]?>">
+            <input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+            <input type="hidden" name="form_subject" value="Заявка на консультацию">
+			<input type="text" name="name" placeholder="Имя" required>
+			<input type="text" name="phone" placeholder="Телефон" required>
+			<input type="email" name="email" placeholder="Email" required>
 			<button type="submit">Отправить</button>
 		</form>
 	</div>
