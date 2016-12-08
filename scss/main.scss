@@ -192,11 +192,22 @@ footer{
 .slider-teh{
     margin: 86px auto;
     max-width: 1166px;
+    position: relative;
+    &:after{
+        position: absolute;
+        left: -28px;
+        content: '';
+        top: 75px;
+        width: 100px;
+        height: 2px;
+        background-color: #fff;
+    }
 }
 .in-slide{
     width: 100%;
     min-height: 420px;
     background-color: #fff;
+    position: relative;
 }
 
 .left-slide{
@@ -205,8 +216,10 @@ footer{
     width: 100%;
     text-align: center;
     display: inline-block;
+    position: relative;
     background-color: #d3c8b9;
     float: left;
+
     h4{
         font-size: 28.5px;
         font-family:ProximaNovaSemibold;
@@ -225,6 +238,7 @@ footer{
     background-repeat: no-repeat;
 }
 .right-slide_two{
+
     background-image: url("../img/bg-slider2.jpg");
 }
 .right-slide_tree{

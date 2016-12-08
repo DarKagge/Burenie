@@ -67,7 +67,8 @@ footer {
 
 .service {
   background-image: url("../img/bg-section1.jpg");
-  min-height: 1145px; }
+  min-height: 1145px;
+  background-position: center; }
 
 .item {
   max-width: 397px;
@@ -162,12 +163,22 @@ footer {
 
 .slider-teh {
   margin: 86px auto;
-  max-width: 1166px; }
+  max-width: 1166px;
+  position: relative; }
+  .slider-teh:after {
+    position: absolute;
+    left: -28px;
+    content: '';
+    top: 75px;
+    width: 100px;
+    height: 2px;
+    background-color: #fff; }
 
 .in-slide {
   width: 100%;
   min-height: 420px;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
 
 .left-slide {
   min-height: 140px;
@@ -175,6 +186,7 @@ footer {
   width: 100%;
   text-align: center;
   display: inline-block;
+  position: relative;
   background-color: #d3c8b9;
   float: left; }
   .left-slide h4 {
@@ -865,6 +877,10 @@ footer {
     display: none; }
   .baner-popup_p p {
     padding-left: 0; } }
+
+@media only screen and (max-width: 950px) {
+  .slider-teh:after {
+    display: none; } }
 
 @media only screen and (max-width: 700px) {
   .question:after {
