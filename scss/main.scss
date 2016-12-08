@@ -91,7 +91,7 @@ footer{
     max-width: 397px;
     width: 100%;
     position: relative;
-    min-height: 271px;
+    height: 271px;
     text-align: center;
     text-transform: uppercase;
     background-size: cover;
@@ -123,7 +123,7 @@ footer{
   }
   &:hover{
     margin-top: 100px;
-    height: 310px;
+    height: 308px;
   }
 
 }
@@ -134,7 +134,7 @@ footer{
 
 .vid-service{
     margin-top: 50px;
-    display: block;
+    display: none;
     font-family:OpenSans-Light;
     font-size: 16.89px;
     h3{
@@ -222,6 +222,12 @@ footer{
     max-width: 440px;
     width: 100%;
     background-repeat: no-repeat;
+}
+.right-slide_two{
+    background-image: url("../img/bg-slider2.jpg");
+}
+.right-slide_tree{
+    background-image: url("../img/bg-slider3.jpg");
 }
 .alg-text{
     color: #fff;

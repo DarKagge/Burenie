@@ -77,7 +77,14 @@ header {
   max-width: 222px; }
   .call-back:hover {
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    background-color: #434958; }
+  .call-back:focus {
+    color: #fff;
+    text-decoration: none; }
+  .call-back:active {
+    color: #fff;
+    text-decoration: none; }
 
 .head-centr h1 {
   font-size: 47.5px;
@@ -295,7 +302,7 @@ header {
 .popup {
   position: relative;
   max-width: 500px;
-  min-height: 350px;
+  padding-bottom: 30px;
   background-color: #fff;
   -webkit-border-radius: 7px;
   border-radius: 7px;

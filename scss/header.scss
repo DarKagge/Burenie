@@ -91,6 +91,15 @@ header{
 	&:hover{
 		text-decoration: none;
 		color: #fff;
+		background-color: #434958;
+	}
+	&:focus{
+		color: #fff;
+		text-decoration: none;
+	}
+	&:active{
+		color: #fff;
+		text-decoration: none;
 	}
 }
 
@@ -308,7 +317,7 @@ header{
 .popup{
 	position: relative;
 	max-width: 500px;
-	min-height: 350px;
+	padding-bottom: 30px;
 	background-color: #fff;
 	border-radius: 7px;
 	margin: 0 auto;

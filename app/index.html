@@ -64,10 +64,10 @@
 					<div class="col-xs-12 col-md-8">
 						<div class="top-menu">
 							<ul>
-								<li><a href="#">Услуги</a></li>
-								<li><a href="#">Вопросы</a></li>
-								<li><a href="#">Портфолио</a></li>
-								<li><a href="#">Этапы работы</a></li>
+								<li><a href="#service">Услуги</a></li>
+								<li><a href="#question">Вопросы</a></li>
+								<li><a href="#hardship">Портфолио</a></li>
+								<li><a href="#technology">Этапы работы</a></li>
 							</ul>
 						</div>
                         <button class="toggle_mnu hidden">
@@ -115,7 +115,7 @@
 			</div>
 		</div>
 	</header>
-	<section class="service">
+	<section id="service" class="service" >
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -125,18 +125,18 @@
 							<div class="zag-line"></div>
 						</div>
 						<div class="service-item">
-							<div class="item" style="background-image: url(img/item2.jpg)">
+							<div data-target="tab1" class="item" style="background-image: url(img/item2.jpg)">
 								<p>Алмазное бурение</p>
 							</div>
-							<div class="item" style="background-image: url(img/item1.jpg)">
+							<div data-target="tab2" class="item" style="background-image: url(img/item1.jpg)">
 								<p>Алмазная резка</p>
 							</div>
-							<div class="item" style="background-image: url(img/item3.jpg)">
+							<div data-target="tab3" class="item" style="background-image: url(img/item3.jpg)">
 								<p>Резка проёмов</p>
 							</div>
 						</div>
 						<div class="info-item">
-							<div class="vid-service">
+							<div id="tab1" class="vid-service">
 								<div class="row">
 									<div class="col-xs-12 col-md-4">
 										<h3>Алмазное бурение</h3>
@@ -158,13 +158,44 @@
 									</div>
 								</div>
 							</div>
+                            <div id="tab2" class="vid-service">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4">
+                                        <h3>АлмазнАЯ РЕЗКА</h3>
+
+                                    </div>
+                                    <div class="col-xs-12 col-md-8">
+                                        <ul>
+                                            <li>Устройство дверных проемов в жилых помещениях</li>
+                                            <li>Увеличение дверных проемов</li>
+                                            <li>Демонтаж различных конструкций из бетона, кирпича и других дтвердых материалов</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab3" class="vid-service">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4">
+                                        <h3>РЕЗКА ПРОЁМОВ</h3>
+                                    </div>
+                                    <div class="col-xs-12 col-md-8">
+                                        <ul>
+                                            <li>Дверной проём в капитальной стене и перегородке</li>
+                                            <li>Оконный, балконный проёмы</li>
+                                            <li>Вентиляционный и любой другой технический проём</li>
+                                            <li>Входной проём на месте старых окон, при переводе квартир<br>
+                                                на 1ом этаже в нежилой фонд</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="technology">
+	<section id="technology" class="technology">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -197,17 +228,17 @@
 									<div class="in-slide">
 										<div class="top-slide">
 											<div class="left-slide">
-												<h4>Ровные отверстия</h4>
+												<h4>Л У Ч Ш И Й   М Е Т О Д</h4>
 											</div>
-											<div class="right-slide">
+											<div class="right-slide right-slide_two">
 												<div class="alg-text">
-													<p>1</p>
+													<p>2</p>
 													<tt>3</tt>
 												</div>
 											</div>
 										</div>
 										<div class="bot-slide">
-											<p>Особая техология позволяет делать идеально ровные отверстия необходимого диаметра в разных местах. Также оборудование работает гораздо тише (по сравнению с ударными методами), и чище.</p>
+											<p>Алмазное бурение по праву считается самым выгодным, быстрым, удобным и безопасным методом изготовления отверстий в бетоне, железобетоне, кирпиче, камне и граните.</p>
 										</div>
 									</div>
 								</li>
@@ -215,17 +246,17 @@
 									<div class="in-slide">
 										<div class="top-slide">
 											<div class="left-slide">
-												<h4>Ровные отверстия</h4>
+												<h4>П Р А К Т И Ч Н О С Т Ь</h4>
 											</div>
-											<div class="right-slide">
+											<div class="right-slide right-slide_tree"">
 												<div class="alg-text">
-													<p>1</p>
+													<p>3</p>
 													<tt>3</tt>
 												</div>
 											</div>
 										</div>
 										<div class="bot-slide">
-											<p>Особая техология позволяет делать идеально ровные отверстия необходимого диаметра в разных местах. Также оборудование работает гораздо тише (по сравнению с ударными методами), и чище.</p>
+											<p>Даже при сверление сильно армированного бетона, получаются идеально ровные отверстия точного диаметра, которые практически не требую дальнейшей обработки и могут сразу же, быть использованы по назначению.</p>
 										</div>
 									</div>
 								</li>
@@ -236,7 +267,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="question">
+	<section id="question" class="question">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -295,7 +326,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="hardship">
+	<section id="hardship" class="hardship">
 		<div class="first-hard">
 			<div class="container-fluid">
 				<div class="inner">
@@ -391,7 +422,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="shield">
+	<section id="shield" class="shield">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -406,7 +437,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="for-us">
+	<section id="for-us" class="for-us">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -446,7 +477,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contact">
+	<section id="contact" class="contact">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -474,7 +505,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contact-telephone">
+	<section id="contact-telephone" class="contact-telephone">
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
@@ -512,18 +543,21 @@
     </footer>
 
 	<div class="popup mfp-hide" id="popup">
-		<form action="">
-            <input type="hidden" name="project_name" value="<?=$projectName[0]?>">
+		<form>
+            <input type="hidden" name="project_name" value="Burenie">
             <input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
             <input type="hidden" name="form_subject" value="Заявка на консультацию">
-			<input type="text" name="name" placeholder="Имя" required>
-			<input type="text" name="phone" placeholder="Телефон" required>
+			<input type="text" name="name" placeholder="Введите имя" required>
+			<input type="text" name="phone" placeholder="Введите телефон" required>
 			<input type="email" name="email" placeholder="Email" required>
-			<button type="submit" name="send">Отправить</button>
+			<button type="submit" name="send">Получить консультацию</button>
 		</form>
 	</div>
 
-
+    <div class="popup mfp-hide" id="ThankYou">
+        Спасибо, <span>Евгений</span> ! <br>
+        Наш менеджер свяжеться с Вами в ближайшее время.
+    </div>
 
 
 
